@@ -1,5 +1,19 @@
 <?php 
 
+class Genre {
+
+    public string $name;
+    public string $description;
+    public bool $isForAdults;
+
+    public function __construct($_name, $_description, $_isForAdults) {
+
+        $this->name = $_name;
+        $this->description = $_description;
+        $this->isForAdults = $_isForAdults;
+    }
+}
+
 class Movie {
 
     public string $name;
