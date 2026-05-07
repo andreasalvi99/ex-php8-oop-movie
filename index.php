@@ -30,7 +30,8 @@ $movie2 = new Movie("Spider-man: Brand New Day", "Tom Holland", "Destin Daniel C
 var_dump($movie1);
 var_dump($movie2);
 
-// echo $movie1->getInfo();
+echo $movie1->getInfo();
+echo "<br>";
 echo $movie2->getInfo();
 
 
