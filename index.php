@@ -2,23 +2,23 @@
 
 class Movie {
 
-    public $name;
-    public $main_actor;
-    public $director;
-    public $release_date;
+    public string $name;
+    public string $mainActor;
+    public string $director;
+    public string $releaseDate;
 
-    public function __construct($_name, $_main_actor, $_director, $_release_date) {
+    public function __construct($_name, $_mainActor, $_director, $_releaseDate) {
 
         $this->name = $_name;
-        $this->main_actor = $_main_actor;
+        $this->mainActor = $_mainActor;
         $this->director = $_director;
-        $this->release_date = $_release_date;
+        $this->releaseDate = $_releaseDate;
 
     }
 
     public function getInfo() {
 
-        return $this->name . " di " . $this->director . " con " . $this->main_actor . " uscirà nelle sale il giorno " . $this->release_date;
+        return $this->name . " di " . $this->director . " con " . $this->mainActor . " uscirà nelle sale il giorno " . $this->releaseDate;
 
     }
 
