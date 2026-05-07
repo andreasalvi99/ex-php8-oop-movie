@@ -92,6 +92,5 @@ var_dump($movie2);
     <title>Document</title>
 </head>
 <body>
-    <h1>Ciao</h1>
 </body>
 </html>
