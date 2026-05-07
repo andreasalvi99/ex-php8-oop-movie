@@ -1,4 +1,18 @@
+<?php 
 
+class Movie {
+
+    public name;
+    public main_actor;
+    public director;
+    public release_date;
+
+}
+
+
+
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
