@@ -9,7 +9,6 @@ trait hasDuration {
     $decimal = $this->durationMinutes/60;
     $hours = floor($decimal);
     $minutes = round(($decimal - $hours) * 60);
-    $formattedTime = sprintf('%02d:%02d', $hours, $minutes);
 
         return "il film dura " .  $hours . " ore " . $minutes . " minuti";  
     }
