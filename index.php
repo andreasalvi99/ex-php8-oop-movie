@@ -5,7 +5,13 @@ trait hasDuration {
     public int $durationMinutes;
 
     public function getDurationHours() {
-        return "il film dura " . $this->durationMinutes/60 . " ore";
+
+    $decimal = $this->durationMinutes/60;
+    $hours = floor($decimal);
+    $minutes = round(($decimal - $hours) * 60);
+    $formattedTime = sprintf('%02d:%02d', $hours, $minutes);
+
+        return "il film dura " .  $hours . " ore " . $minutes . " minuti";  
     }
 
 }
