@@ -7,6 +7,15 @@ class Movie {
     public director;
     public release_date;
 
+    public function __construct($_name, $_main_actor, $_director, $_release_date) {
+
+        $this->name = $_name;
+        $this->name = $_main_actor;
+        $this->name = $_director;
+        $this->name = $_release_date;
+
+    }
+
 }
 
 
